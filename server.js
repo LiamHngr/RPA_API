@@ -1,28 +1,18 @@
-const csv = require('csv-parser');
-const fs = require('fs');
 const express = require('express');
 const app = express();
-
-const strings = [];
-
-fs.createReadStream('string.csv')
-  .pipe(csv())
-  .on('data', (row) => {
-    //console.log(row);
-    strings.push(row.Information);
-  })
-  .on('end', () => {
-    console.log('CSV file successfully processed');
-  });
+const port = process.env.PORT || 3000;
 
 app.get('/', (req, res) => {
-  //console.log('hello world');
-  const randomString = strings[Math.floor(Math.random() * strings.length)];
-  //console.log(strings);
-  //console.log(strings.length);
-  res.json({ string: randomString });
+  res.send('Hello, world!');
 });
 
-app.listen(3000, () => {
-  console.log('Server started on port 3000');
+app.get('/random', (req, res) => {
+  const randomStrings = ['apple', 'banana', 'cherry', 'date', 'elderberry'];
+  const randomIndex = Math.floor(Math.random() * randomStrings.length);
+  const randomString = randomStrings[randomIndex];
+  res.send(randomString);
+});
+
+app.listen(port, () => {
+  console.log(`Server started on port ${port}`);
 });
