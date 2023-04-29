@@ -1,0 +1,52 @@
+Information
+UiPath is fun so be sure to enjoy it 
+Use a naming convention that is easy to understand and maintain.
+Create a backlog of processes to automate.
+Use the "record" feature to quickly capture and automate actions.
+Use the "flowchart" activity to organize and structure your workflow.
+Use exception handling to handle errors in your processes.
+Use the "delay" activity sparingly to reduce processing time.
+Use logging to track process performance and errors.
+Use the "decision" activity to control process flow.
+Use the "for each" activity to iterate through collections and other data items.
+Use the "assign" activity to manipulate data.
+Use the "invoke code" activity to add custom code to a process.
+Use the "sequence" activity to group related activities together.
+Use the "state machine" activity to manage complex processes.
+Use the "try catch" activity to handle exceptions.
+Use the "if" activity to create conditional logic.
+Use the "switch" activity to create multiple branching paths.
+Use the "message box" activity to display messages during process execution.
+Use the "invoke workflow" activity to reuse existing workflows.
+Use the "get text" activity to extract text from a UI element.
+Use the "type into" activity to enter text into a UI element.
+Use the "click" activity to click on a UI element.
+Use the "attach window" activity to attach to a specific window.
+Use the "image" activity to search for and interact with images.
+Use the "OCR" activity to extract text from images.
+Use the "screen scraping" feature to extract data from a UI.
+Use the "web scraping" feature to extract data from a web page.
+Use the "send hotkey" activity to simulate keyboard inputs.
+Use the "send email" activity to send emails from within a process.
+Use the "data scraping" feature to extract data from tables.
+Use the "find element" activity to locate a specific UI element.
+Use the "element exists" activity to check if a UI element exists.
+Use the "invoke method" activity to invoke methods on objects.
+Use the "write CSV" activity to write data to a CSV file.
+Use the "read CSV" activity to read data from a CSV file.
+Use the "excel application scope" activity to interact with Excel.
+Use the "generate data table" activity to create a data table.
+Use the "data table" activity to manipulate data tables.
+Use the "queue item" activity to add items to a queue.
+Use the "get queue item" activity to retrieve items from a queue.
+Use the "set transaction status" activity to update the status of a transaction.
+Use the "parallel" activity to run multiple activities in parallel.
+Use the "delay before" activity to introduce pauses in a process.
+Use the "delay after" activity to introduce pauses after a process has completed.
+Use the "log message" activity to log messages during process execution.
+Use the "invoke workflow file" activity to invoke other workflows.
+Use the "invoke method" activity to invoke methods on objects.
+Use the "invoke power shell" activity to execute PowerShell scripts.
+Use the "invoke Python method" activity to execute Python code.
+Use the "invoke JavaScript method" activity to execute JavaScript code.
+Use the "invoke Java method" activity
